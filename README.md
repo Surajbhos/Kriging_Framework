@@ -23,17 +23,30 @@ It contains support for two Kriging methods.
 
 1\. Ordinary Kriging with 5 different variograms
 
-➢ Linear
+  ➢ Linear
 
-➢ Gaussian ➢ Spherical ➢ Exponential ➢ Power
+  ➢ Gaussian 
+  
+  ➢ Spherical 
+  
+  ➢ Exponential 
+  
+  ➢ Power
 
 2\. Universal Kriging with 5 different variograms and 1 drift parameter
 
-Variogram Models Linear drift parameter for linear directional trend
+   Variogram Models Linear drift parameter for linear directional trend
 
-➢ Linear
+   ➢ Linear
 
-➢ Gaussian ➢ Spherical ➢ Exponential ➢ Power
+   ➢ Gaussian 
+   
+   ➢ Spherical 
+   
+   ➢ Exponential 
+   
+   ➢ Power
+
 
 Functionality for Geohashing is implemented within a framework which returns an Alphanumeric string for each latitude and longitude pair within a two dimensional grid.
 
@@ -44,7 +57,10 @@ Functionality for Geohashing is implemented within a framework which returns an 
 
 File conversion utility contains functionalities which can convert following file formats into Feather file format.
 
-● Parquet ● Avro ● CSV ● Excel
+● Parquet 
+● Avro 
+● CSV 
+● Excel
 
 Feather format file is 100-150 times faster compared to CSV for reading from and writing to disk. It also takes less than half of disk space compared to CSV File. In addition, Framework has support for Feather, CSV and Excel files. These file formats can be processed within each step of the framework.
 
