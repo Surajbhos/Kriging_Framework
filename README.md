@@ -101,6 +101,7 @@ It is the fundamental tool of Kriging. This concept explains how quickly spatial
 ● Semivariance: A parameter that describes dissimilarity between data
 
 ![Alt Text](https://github.com/Surajbhos/Kriging_Framework/blob/09f81771c111cbeeb6cbf34387f77f5fd42c0831/Semivariogram.jpg)
+
 Fig.1 Most common theoretical variogram models
 
 
@@ -127,22 +128,17 @@ Alandur - Chennai
 | `68.38` | `7181.65` | `84.74` | `0.44`  | `97.70` | `63.54` | `-2.17` |
 
 
-MAE MSE RMSE MDA sMAPE MAPE NSE
-
-68\.38 7181.65 84.74 0.44 97.70 63.54 -2.17
-
 Chakala - Mumbai
 
-MAE MSE RMSE MDA sMAPE MAPE NSE
+| MAE    | MSE   | RMSE   | MDA  | sMAPE  | MAPE  |  NSE |
+| :------------ |   :---: |  :---:  |  :---: |  :---:  |  :---:  | --------: |
+| `58.84` | `4764.99` | `69.02` | `0.48`  | `77.33` | `53.51` | `-2.85` |
 
-58\.84 4764.99 69.02 0.48 77.33 53.51 -2.85
 
 New Malakpet - Hyderabad
 
-MAE MSE RMSE MDA sMAPE MAPE NSE
-
-16\.91 598.35 24.46 0.58 40.38 51.75 -0.53
-
-
+| MAE    | MSE   | RMSE   | MDA  | sMAPE  | MAPE  |  NSE |
+| :------------ |   :---: |  :---:  |  :---: |  :---:  |  :---:  | --------: |
+| `16.91` | `598.35` | `24.46` | `0.58`  | `40.38` | `51.75` | `-0.53` |
 
 
