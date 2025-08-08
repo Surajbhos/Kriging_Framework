@@ -122,6 +122,10 @@ Fig.1 Most common theoretical variogram models
 **Results:**
 
 Alandur - Chennai
+| MAE    | MSE   | RMSE   | MDA  | sMAPE  | MAPE  |  NSE |
+| :------------ |   :---: |  :---:  |  :---: |  :---:  |  :---:  | --------: |
+| `68.38` | `7181.65` | `84.74` | `0.44`  | `97.70` | `63.54` | `-2.17` |
+
 
 MAE MSE RMSE MDA sMAPE MAPE NSE
 
