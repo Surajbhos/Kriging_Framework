@@ -67,7 +67,7 @@ File conversion utility contains functionalities which can convert following fil
 
 Feather format file is 100-150 times faster compared to CSV for reading from and writing to disk. It also takes less than half of disk space compared to CSV File. In addition, Framework has support for Feather, CSV and Excel files. These file formats can be processed within each step of the framework.
 
-Kriging has time complexity O(N <sup>3/sup> ) and space complexity O(N <sup>2/sup> )when there are N number of data points. To address this issue, Multithreading functionality is implemented in order to ease the task of kriging. For kriging a single file, a new thread is created.
+Kriging has time complexity O(N <sup>3</sup> ) and space complexity O(N <sup>2</sup> )when there are N number of data points. To address this issue, Multithreading functionality is implemented in order to ease the task of kriging. For kriging a single file, a new thread is created.
 
 Framework is available a[t](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[ ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[https://github.com/Kaatru-Senai/spatio-temporal-data- ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[interpolation.git](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[ ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)and <https://github.com/Surajbhos/Kriging_Framework>
 
