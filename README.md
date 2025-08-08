@@ -1,4 +1,4 @@
-**Framework for Spatial Interpolation of data points**
+****Framework for Spatial Interpolation of data points****
 
 Framework contains functionalities like Clustering, Kriging, Geohashing and Concatenating files. All these functionalities are assembled in one Python code. Kriging is a geostatistical technique used for estimating values of environmental variables at unknown locations with the help of values at known locations. Kriging technique also provides error in prediction which is known as Kriging variance.
 
@@ -76,7 +76,11 @@ Framework is available a[t](https://github.com/Kaatru-Senai/spatio-temporal-data
 
 <p align="center"><b>Ordinary Kriging</b></p>
 
-![Maths img] (https://github.com/Surajbhos/Kriging_Framework/blob/74657c6b1357526ca24c28a8bdaf4fe34981b84a/MathematicalF-images-1.jpg)
+<p align="center">
+<img src="https://github.com/Surajbhos/Kriging_Framework/blob/74657c6b1357526ca24c28a8bdaf4fe34981b84a/MathematicalF-images-1.jpg" width="20000" alt="Project Screenshot">
+</p>
+
+<p align="center"><b>Universal Kriging</b></p>
 
 **Semivariogram:**
 
