@@ -1,4 +1,4 @@
-**Framework for Spatial Interpolation of data points**
+***Framework for Spatial Interpolation of data points***
 
 Framework contains functionalities like Clustering, Kriging, Geohashing and Concatenating files. All these functionalities are assembled in one Python code. Kriging is a geostatistical technique used for estimating values of environmental variables at unknown locations with the help of values at known locations. Kriging technique also provides error in prediction which is known as Kriging variance.
 
@@ -69,44 +69,8 @@ Kriging has time complexity O(N^3) and space complexity O(N^2) when there are N 
 
 Framework is available a[t](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[ ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[https://github.com/Kaatru-Senai/spatio-temporal-data- ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[interpolation.git](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[ ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)and <https://github.com/Surajbhos/Kriging_Framework>
 
-<iframe src="https://github.com/Surajbhos/Kriging_Framework/blob/1a11d603021503ced5d7fcce649e15832df6e76d/MathematicalF.pdf" width="640" height="480"></iframe>
-
-**Mathematical formulation of Kriging :**
-
-Let the symbol denotes the observed value of the studied spatial process at the point s. The principle of prediction is based on a weighted average of neighboring
-values , where the weights depend on the distance and spatial relationship between observed points.
-Mathematically, the prediction at the point can be described by the equation
-
-The weights sum to one to assure unbiasedness condition and they are found by minimizing the estimation variance.
-
-The random variable Z(s) can be decomposed into a trend component m(x) and a residual component R(x).
-
-
-
-Ordinary kriging assumes stationarity of the first moment of all random variables. i.e. it
-
-assumes constant mean which is unknown. Nonstationary conditions are taken into account by restricting the domain of stationarity to a local neighborhood and moving it across the study area. Ordinary kriging is based on the assumption that the correlation between two random variables depends only on their spatial distance that separates them and is independent of their position. The variance of the difference
-
-of two random variables and depends only on their spatial distance h.
-
-Where, is called variogram and is a semivariogram.
-
-The residual component is modeled as a stationary random variable with zero mean and under the assumption of intrinsic stationarity, its spatial dependence is given by the semivariance
-
-Assuming a constant mean above equation is equivalent to:
-
-Error in prediction i.e Kriging variance associated to an Ordinary Kriging estimate is:
-
-**Second order stationarity and use of Universal Kriging:**
-
-If the first moment of the observed field is not stationary and a polynomial trend occurs in the data, it is appropriate to use Universal kriging.
-
-Universal kriging considers that is not constant, but that it varies smoothly within
-
-the local neighborhood, representing a local trend. The trend is recalculated within each local neighborhood. This trend component is modeled as a weighted sum of
-
-known functions and unknown coefficients ,
-
+![Alt Text] (https://github.com/Surajbhos/Kriging_Framework/blob/74657c6b1357526ca24c28a8bdaf4fe34981b84a/MathematicalF-images-0.jpg)
+![Alt Text] (https://github.com/Surajbhos/Kriging_Framework/blob/74657c6b1357526ca24c28a8bdaf4fe34981b84a/MathematicalF-images-1.jpg)
 
 **Semivariogram:**
 
