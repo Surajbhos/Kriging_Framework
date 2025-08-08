@@ -69,8 +69,9 @@ Kriging has time complexity O(N^3) and space complexity O(N^2) when there are N 
 
 Framework is available a[t](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[ ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[https://github.com/Kaatru-Senai/spatio-temporal-data- ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[interpolation.git](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[ ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)and <https://github.com/Surajbhos/Kriging_Framework>
 
-![Alt Text] (https://github.com/Surajbhos/Kriging_Framework/blob/74657c6b1357526ca24c28a8bdaf4fe34981b84a/MathematicalF-images-0.jpg)
-![Alt Text] (https://github.com/Surajbhos/Kriging_Framework/blob/74657c6b1357526ca24c28a8bdaf4fe34981b84a/MathematicalF-images-1.jpg)
+![Mathematial img] (https://github.com/Surajbhos/Kriging_Framework/blob/74657c6b1357526ca24c28a8bdaf4fe34981b84a/MathematicalF-images-0.jpg)
+
+![Maths img] (https://github.com/Surajbhos/Kriging_Framework/blob/74657c6b1357526ca24c28a8bdaf4fe34981b84a/MathematicalF-images-1.jpg)
 
 **Semivariogram:**
 
