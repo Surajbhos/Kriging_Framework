@@ -6,13 +6,14 @@ Framework contains functionalities like Clustering, Kriging, Geohashing and Conc
 
 ● Creates Clusters from given data
 
-● Perform Kriging and geohashing operations on the clusters
+● Perform Kriging and geohashing operations on the clusters                              
 
 ● Estimates value of PM2.5 at each data point within 2D grid and also calculates
 
 estimation error
 
 ● Concatenates dataframes into one file which is suitable for storing in Database
+
 
 Framework consists Three Clustering methods.
 
@@ -21,6 +22,7 @@ Framework consists Three Clustering methods.
 ● Fuzzy C-Means Clustering
 
 ● K-Means Clustering
+
 
 It contains support for two Kriging methods.
 
@@ -51,7 +53,7 @@ It contains support for two Kriging methods.
    ➢ Power
 
 
-Functionality for Geohashing is implemented within a framework which returns an Alphanumeric string for each latitude and longitude pair within a two dimensional grid. For performing kriging interpolation a python library called PyKrige is used.
+Functionality for Geohashing is implemented within a framework which returns an Alphanumeric string for each latitude and longitude pair within a two dimensional grid.  Geohash string is unique for particular location (lat, long) with specified precision. Here precision is 40 m X 20 m. For performing kriging interpolation a python library called PyKrige is used.
 
 File conversion utility contains functionalities which can convert following file formats into Feather file format.
 
@@ -65,7 +67,7 @@ File conversion utility contains functionalities which can convert following fil
 
 Feather format file is 100-150 times faster compared to CSV for reading from and writing to disk. It also takes less than half of disk space compared to CSV File. In addition, Framework has support for Feather, CSV and Excel files. These file formats can be processed within each step of the framework.
 
-Kriging has time complexity O(N^3) and space complexity O(N^2) when there are N number of data points. To address this issue, Multithreading functionality is implemented in order to ease the task of kriging. For kriging a single file, a new thread is created.
+Kriging has time complexity O(N<sup>3/sup>) and space complexity O(N<sup>2/sup>)when there are N number of data points. To address this issue, Multithreading functionality is implemented in order to ease the task of kriging. For kriging a single file, a new thread is created.
 
 Framework is available a[t](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[ ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[https://github.com/Kaatru-Senai/spatio-temporal-data- ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[interpolation.git](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)[ ](https://github.com/Kaatru-Senai/spatio-temporal-data-interpolation.git)and <https://github.com/Surajbhos/Kriging_Framework>
 
